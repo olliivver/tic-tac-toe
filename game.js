@@ -50,7 +50,6 @@ const gameOver = () => {
     "dia1",
     "dia2",
   ];
-  console.log(count);
   for (i = 0; i < rowArr.length; i++) {
     const currentRow = document.getElementsByClassName(rowArr[i]);
     for (j = 0; j < currentRow.length; j++) {
