@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  caret-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+.tic-cont {
+  text-align: center;
+}
+.title {
+  color: rgb(68, 0, 228);
+  font-size: 45px;
+  margin: 30px;
+}
+.gameArea {
+  margin: auto;
+  display: flex;
+  width: 400px;
+  height: 400px;
+  flex-wrap: wrap;
+}
+.xFirst {
+  position: relative;
+  margin: 20px;
+}
+.invis {
+  color: transparent;
+}
+/* 3*3 Grid */
+.box {
+  width: 33%;
+  height: 33%;
+  border: 3px solid gray;
+  font-size: 5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 130px;
+}
+.vertical {
+  border-top: none;
+  border-bottom: none;
+}
+.horizontal {
+  border-left: none;
+  border-right: none;
+}
+.no-border {
+  border: none;
+}
+/* Reset Button */
+.reset-btn {
+  width: 95px;
+  height: 40px;
+  border: none;
+  margin: 30px;
+  border-radius: 4px;
+  background-color: rgb(68, 0, 228);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
